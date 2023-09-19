@@ -14,7 +14,7 @@ import Heroes from "../images/we can be heroes.png";
 const page = () => {
   return (
     <>
-      <h3 style={{ margin: "20px", color: "#E50914" }}>Popular </h3>
+      <h3 style={{ margin: "20px", color: "#E50914" }}>Netflix Originals </h3>
      <div className="page">
       <div className="card-container">
         <Card image={Extraction} alt="" title="Extraction" />
@@ -25,7 +25,22 @@ const page = () => {
         <Card image={Mother} alt="" title="The Mother" />
         <Card image={Heroes} alt="" title="We Can Be Heroes" />
         <Card image={Gray_man} alt="" title="The Gray Man" />
+        <Card image={Adam} alt="" title="The Adam Project" />
        
+      </div>
+      
+      </div>
+      <h3 style={{ margin: "20px", color: "#E50914" }}>Trending Now </h3>
+      <div className="page2">
+     
+    
+
+      <div className="card-container2">
+      <Card image={Adam} alt="" title="The Adam Project" />
+      <Card image={Gray_man} alt="" title="The Gray Man" />
+      <Card image={Heroes} alt="" title="We Can Be Heroes" />
+      <Card image={Glass_onion} alt="" title="Glass Onion: A Knives Out Mystery" />
+
       </div>
       </div>
     </>

@@ -12,7 +12,7 @@ const card = (props) => {
         alt={props.alt} 
         />
         <CardContent>
-          <h4>{props.title}</h4>
+          <h5 className="title">{props.title}</h5>
         </CardContent>
       </Card>
     </div>
